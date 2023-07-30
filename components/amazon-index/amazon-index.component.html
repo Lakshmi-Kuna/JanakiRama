@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <header class="mt-2 bg-dark text-white p-2 d-flex justify-content-between">
+        <div>
+            <h2>Amazon</h2>
+        </div>
+        <div class="nav">
+            <a routerLink="home">Home</a>
+            <a routerLink="mens">Men's Fashion</a>
+            <a routerLink="womens">Women's Fashion</a>
+            <a routerLink="jewelery">Jewelery</a>
+            <a routerLink="electronics">Electronics</a>
+            <a routerLink="admin">Admin Portal</a>
+            <a routerLink="about">About</a>
+            <a routerLink="blogs">Blogs</a>
+            <a routerLink="contacts">Contact</a>
+        </div>
+        <div>
+            <span class="bi bi-heart me-2"></span>
+            <span class="bi bi-person me-2"></span>
+            <span class="bi bi-search me-2"></span>
+        </div>
+    </header>
+    <section>
+        <router-outlet></router-outlet>
+    </section>
+</div>

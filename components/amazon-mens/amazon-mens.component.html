@@ -1,0 +1,8 @@
+<div class="flex-wrap d-flex">
+    <div *ngFor="let item of mensProducts" class="mt-3">
+        <img [src]="item.image" height="100" width="100">
+        <p>
+            <a routerLink="/details/{{item.id}}" class="btn btn-primary">Details</a>
+        </p>
+    </div>
+</div>
