@@ -1,0 +1,1 @@
+Worked on Stand Alone API Web Application which represents the Creation of site user interface from provided design concepts by using Angular CLI concepts like Angular Components, Routing, Services, Bootstrap, and more.
